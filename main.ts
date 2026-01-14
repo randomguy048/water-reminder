@@ -13,6 +13,7 @@ basic.forever(function () {
     hours_to_remind = 15.5
     basic.pause(3600000)
     while (0.5 < hours_to_remind) {
+        hours_to_remind += -1
         basic.showLeds(`
             . # # # .
             # . . . #
@@ -26,12 +27,11 @@ basic.forever(function () {
             basic.clearScreen()
             break;
         }
-    }
-    hours_to_remind += -1
-    if (hours_to_remind == 0.5) {
-        hours_to_remind += -0.5
-        music.play(music.stringPlayable("C D G F C D - - ", 690), music.PlaybackMode.UntilDone)
-        basic.showNumber(4.5)
+        if (hours_to_remind == 0.5) {
+            hours_to_remind += -0.5
+            music.play(music.stringPlayable("C D G F C D - - ", 690), music.PlaybackMode.UntilDone)
+            basic.showNumber(4.5)
+        }
     }
     minutes_to_sleep = 510
     if (minutes_to_sleep == 510) {
