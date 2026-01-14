@@ -12,7 +12,7 @@ basic.clearScreen()
 basic.forever(function () {
     hours_to_remind = 15.5
     basic.pause(3600000)
-    while (0 < hours_to_remind) {
+    while (0.5 < hours_to_remind) {
         basic.showLeds(`
             . # # # .
             # . . . #
