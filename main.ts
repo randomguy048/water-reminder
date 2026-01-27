@@ -27,7 +27,6 @@ basic.forever(function () {
         if (input.buttonIsPressed(Button.A)) {
             music.play(music.stringPlayable("C - C5 - - - - - ", 500), music.PlaybackMode.UntilDone)
             basic.clearScreen()
-            break;
         }
         if (hours_to_remind == 0.5) {
             hours_to_remind += -0.5
