@@ -1,5 +1,5 @@
-let hours_to_remind = 0
-let minutes_to_sleep = 0
+let minutes_to_sleep = 510
+let hours_to_remind = 15.5
 basic.showLeds(`
     # . # . #
     # . # . .
@@ -11,8 +11,6 @@ music.play(music.stringPlayable("- - - - - - C D ", 70), music.PlaybackMode.Unti
 music.play(music.stringPlayable("B A G F E D C C5 ", 550), music.PlaybackMode.UntilDone)
 basic.clearScreen()
 basic.forever(function () {
-    minutes_to_sleep = 510
-    hours_to_remind = 15.5
     basic.pause(1800000)
     while (0 < hours_to_remind) {
         music.play(music.stringPlayable("C D G F C D G F ", 600), music.PlaybackMode.LoopingInBackground)
