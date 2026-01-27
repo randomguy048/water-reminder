@@ -7,6 +7,8 @@ basic.showLeds(`
     # . # . #
     # . # . #
     `)
+music.play(music.stringPlayable("- - - - - - C D ", 70), music.PlaybackMode.UntilDone)
+music.play(music.stringPlayable("B A G F E D C C5 ", 500), music.PlaybackMode.UntilDone)
 basic.pause(1000)
 basic.clearScreen()
 basic.forever(function () {
