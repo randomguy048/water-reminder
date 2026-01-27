@@ -8,7 +8,7 @@ This repository can be added as an **extension** in MakeCode.
 * open [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * click on **New Project**
 * click on **Extensions** under the gearwheel menu
-* search for **https://github.com/randomguy048/water-reminder** and import
+* search for **https://github.com/randomguy048/WaterAlert** and import
 
 ## Edit this project
 
@@ -16,7 +16,7 @@ To edit this repository in MakeCode.
 
 * open [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * click on **Import** then click on **Import URL**
-* paste **https://github.com/randomguy048/water-reminder** and click import
+* paste **https://github.com/randomguy048/WaterAlert** and click import
 
 #### Metadata (used for search, rendering)
 
@@ -24,4 +24,4 @@ To edit this repository in MakeCode.
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
 
 
-> You can also open this page at [https://randomguy048.github.io/water-reminder/](https://randomguy048.github.io/water-reminder/)
+> You can also open this page at [https://randomguy048.github.io/WaterAlert/](https://randomguy048.github.io/WaterAlert/)
